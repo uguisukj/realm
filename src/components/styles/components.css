@@ -1,1 +1,22 @@
+/* Estilos gerais para os componentes */
+.component {
+    background: white; /* Fundo branco */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    padding: 20px; /* Preenchimento */
+    margin: 10px 0; /* Margem vertical */
+}
 
+/* Estilo para botões em componentes */
+.component button {
+    padding: 10px 15px; /* Preenchimento do botão */
+    background-color: #4CAF50; /* Cor do botão */
+    color: white; /* Texto do botão */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro */
+}
+
+.component button:hover {
+    background-color: #45a049; /* Cor ao passar o mouse */
+}
